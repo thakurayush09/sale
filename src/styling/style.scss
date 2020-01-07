@@ -69,6 +69,13 @@ figure, figcaption {margin: 0;}
     -ms-justify-content: $flex;
     justify-content: $flex;
     }
+    @mixin after($after) {
+        position: absolute;
+        content: "";
+        
+
+    }
+
 
 
 /************body****************/
