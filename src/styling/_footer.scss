@@ -1,0 +1,114 @@
+footer {
+	background: #e2e2e2;
+	margin-top: 79px;
+	padding-top: 35px;
+	width: 100%;
+    overflow: hidden;
+    .row {
+        display: flex;
+        width: 100%;
+        .boder, .adrees, .menu {
+            width: 100%;
+            max-width: 33.333%;
+            overflow: hidden;
+        }
+
+        .boder{
+            h4 {
+                font-size: 18px;
+                font-weight: 600;
+                color: #7f7f7f;}
+                h3 {
+                    font-size: 20px;
+                    font-weight: 400;   color: #7f7f7f;
+                }
+
+                ul {
+                    padding-left: 0;
+                    li {
+                        display: inline;
+                        a {
+                            border: solid 1px #7f7f7f; color: #7f7f7f;;
+                            padding: 7px 24px;
+                            margin: 5px 2px;
+                            display: inline-block;
+                            &:hover{color: $primary-color; border: solid 1px $primary-color;}
+                        }
+
+
+                    }
+                }
+
+
+        }
+
+        .adrees{margin-left: 100px;
+            h4 {
+                font-size: 16px;
+                font-weight: 600;
+                color: #7f7f7f;
+                margin-bottom: -14px;
+            }
+
+            p {   width: 58%;
+                margin-bottom: 41px;
+                a{
+                font-size: 17px;
+                font-weight: 500; color: $black-color;
+                line-height: 17px;
+             
+                }
+            }
+
+        }
+        .menu{    display: flex;
+
+            ul{
+                padding-right: 0;
+                li{
+
+                    
+
+                        a {
+                            color: #7f7f7f;
+                            font-weight: 600;
+                            font-size: 14px;
+                            line-height: 48px;
+                            &:hover{color:$black-color;}
+                        
+                    }
+                }
+            }
+            .last {
+                margin-left: 39px;
+            }
+        }
+    }
+
+
+    .colpy0right {
+        width: 100%;
+        text-align: center;
+        padding: 13px 1px;
+     p {
+            color: #7e7e7e;
+            font-size: 14px;
+            font-weight: 300;
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
