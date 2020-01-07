@@ -1,0 +1,83 @@
+@import "node_modules/@fortawesome/fontawesome-free/css/all.css";
+@import "node_modules/slick-carousel/slick/slick-theme.scss";
+@import "node_modules/slick-carousel/slick/slick.scss";
+
+
+
+/******Fonts***********************/
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap');
+/****coolor***********/
+$primary-color:#f38820;
+$black-color:#000000;
+$white-color:#ffffff;
+$grey-color:#e2e2e2;
+$extra-gray-color:#848484;
+$pargraph-color:#494949;
+
+/************transtion***************/
+$transition-in:all ese in 0.3s;
+$transition-out:all ese out 0.3s;
+$margain-auto:0 auto;
+
+
+
+
+/*********heading**********************/
+h1{font-size: 30px;}
+h2{font-size: 22px;}
+h3{font-size: 18px;}
+h4{font-size: 14px;}
+li{list-style: none;}
+a{text-decoration: none;
+&:hover{text-decoration: none;}
+}
+figure, figcaption {margin: 0;}
+
+    @mixin display($flex) {
+    display: -webkit-$flex;
+    display: -moz-$flex;
+    display: -ms-$flex;
+    display: $flex;
+    }
+    @mixin direction($flex) {
+    -webkit-flex-direction: $flex;
+    -moz-flex-direction: $flex;
+    -ms-flex-direction: $flex;
+    flex-direction: $flex;
+    }
+    @mixin flex-wrap($flex) {
+    -webkit-flex-wrap: $flex;
+    -moz-flex-wrap: $flex;
+    -ms-flex-wrap: $flex;
+    flex-direction: $flex;
+    }
+    @mixin align-items($flex) {
+    -webkit-align-items: $flex;
+    -moz-align-items: $flex;
+    -ms-align-items: $flex;
+    align-items: $flex;
+    }
+    @mixin flex-basis($flex) {
+    -webkit-flex-basis: $flex;
+    -moz-flex-basis-: $flex;
+    -ms-flex-basis-: $flex;
+    flex-basis: $flex;
+    }
+    @mixin justify-content($flex) {
+    -webkit-justify-content: $flex;
+    -moz-justify-content-: $flex;
+    -ms-justify-content: $flex;
+    justify-content: $flex;
+    }
+
+
+/************body****************/
+body{font-family: 'Poppins', sans-serif; margin:0 auto;}
+.container {	max-width: 1270px;	margin-left: auto;	margin-right: auto;	box-sizing: border-box;	width: 100%;}
+
+
+
+
+
+
+
