@@ -1,0 +1,104 @@
+#baner {
+	width: 100%;
+    display: block;
+    .row{
+        @include display(flex);
+        #second{@include flex-basis(33.333%);transition: all ease-in 0.3s;
+           &:hover {
+                flex-basis: 65% !important;
+                transition: all ease-out 0.3s;
+            }
+            figure{position: relative;
+                img {
+                    width: 100%;
+                    height: 600px;
+                    object-fit: cover;
+                }
+                 figcaption {
+                    position: absolute;
+                    bottom: 30px;
+                    background: white;
+                    width: 50%;
+                    left: 30px;
+                    padding-left: 30px;
+                    padding-right: 19px;
+                    padding-top: 20px;
+                    padding-bottom: 25px;
+                }
+                .fe {
+                    left: auto !important;
+                    right: 30px !important;
+                }
+                h4 {
+                    text-transform: uppercase;
+                    font-size: 14px;
+                    font-weight: 600;
+                }
+                a h1 {
+                    font-size: 20px;
+                    font-weight: 600;color: $black-color;
+                    line-height: 30px;
+                    position: relative;
+                    margin-top: -7px;
+                    margin-bottom: 38px;
+                    &::after {
+                        position: absolute;
+                        background: $primary-color;
+                        content: "";
+                        width: 55px;
+                        height: 5px;
+                        bottom: -14px;
+                        left: 0;
+                    }
+                }
+                #baner-h {
+                    font-size: 14px !important;
+                    font-weight: 500 !important;
+                    a {
+                        word-spacing: 4px;
+                        padding-left: 4px;color: $primary-color;
+                        &:hover {
+                            text-decoration: underline;
+                            text-decoration-thickness: 2px;
+                            transition: all e 0.5s;
+                        }
+                    }
+                }
+            }
+        
+        
+        
+        
+        }
+        figure::before {
+            position: absolute;
+            background: #f38820;
+            width: 69px;
+            height: 69px;
+            top: 32px;
+            left: 28px;
+            z-index: 99;
+            border-radius: 100%;
+            line-height: 65px;
+            text-align: center;
+            color: white;
+            font-weight: 600;
+            font-size: 36px;
+        }
+        #a::before{content: "01";}
+        #b::before{content: "02";}
+        #c::before{content: "03";}
+    }
+    #second:hover figcaption {
+        width: 70% !important;
+    }
+     #second:hover figcaption h1 {
+        font-size: 30px  !important;
+        line-height: 36px  !important;
+        transition: all ease-in-out 0.4s;
+    }
+
+
+}
+
+

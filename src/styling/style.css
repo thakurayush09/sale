@@ -202,8 +202,6 @@ header {
   header .serach form:hover input {
     display: block; }
 
-/*
-@import "baner";**/
 #baner {
   width: 100%;
   display: block; }
@@ -297,3 +295,729 @@ header {
     font-size: 30px  !important;
     line-height: 36px  !important;
     transition: all ease-in-out 0.4s; }
+
+.soicial.media {
+  margin-top: 13px;
+  text-align: center; }
+  .soicial.media a {
+    margin: 0 2px;
+    font-size: 20px; }
+    .soicial.media a svg {
+      color: #000000; }
+      .soicial.media a svg:hover {
+        color: #f38820;
+        transition: all ease-in-out0 0.3s; }
+
+.added {
+  text-align: center; }
+  .added h3 {
+    background: #e2e2e2;
+    width: 65%;
+    margin: 0 auto;
+    padding: 33px 0;
+    margin-top: 12px;
+    color: #848484; }
+    .added h3 svg {
+      padding-left: 10px; }
+
+#actua {
+  width: 100%;
+  margin-top: 46px;
+  overflow: hidden; }
+  #actua .row {
+    display: -webkit- flex;
+    display: -moz- flex;
+    display: -ms- flex;
+    display: flex;
+    border-bottom: solid 1px #848484; }
+    #actua .row .first {
+      -webkit-flex-basis: 50%;
+      -moz-flex-basis: 50%;
+      -ms-flex-basis: 50%;
+      flex-basis: 50%;
+      text-align: start; }
+      #actua .row .first h1 {
+        font-weight: bold;
+        margin-bottom: 9px; }
+    #actua .row .second {
+      -webkit-flex-basis: 50%;
+      -moz-flex-basis: 50%;
+      -ms-flex-basis: 50%;
+      flex-basis: 50%;
+      text-align: end; }
+      #actua .row .second h4 a {
+        font-size: 15px;
+        font-weight: bold;
+        color: #404040;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        word-spacing: 3px; }
+        #actua .row .second h4 a:hover {
+          text-decoration: underline; }
+  #actua .row-second {
+    margin-top: 48px;
+    display: -webkit- flex;
+    display: -moz- flex;
+    display: -ms- flex;
+    display: flex; }
+    #actua .row-second .first-side {
+      -webkit-flex-basis: 66%;
+      -moz-flex-basis: 66%;
+      -ms-flex-basis: 66%;
+      flex-basis: 66%;
+      margin-right: 4%; }
+      #actua .row-second .first-side figure img {
+        width: 100%;
+        height: 400px; }
+      #actua .row-second .first-side span {
+        margin-top: 10px;
+        display: block;
+        color: #858585;
+        font-weight: 300;
+        font-size: 16px;
+        margin-left: 22px;
+        position: relative; }
+        #actua .row-second .first-side span::after {
+          position: absolute;
+          background: #858585;
+          content: "";
+          width: 20px;
+          height: 2px;
+          left: -25px;
+          top: 11px;
+          bottom: 0;
+          margin: 0 auto; }
+      #actua .row-second .first-side h2 {
+        font-weight: 600;
+        margin-bottom: -3px;
+        margin-top: 13px; }
+    #actua .row-second p {
+      font-weight: 300;
+      font-size: 15px;
+      color: #494949;
+      line-height: 25px; }
+    #actua .row-second #jai {
+      font-size: 15px;
+      color: #f38820;
+      position: relative;
+      margin-left: 25px;
+      font-weight: 400;
+      text-transform: uppercase; }
+      #actua .row-second #jai:hover {
+        color: #000000;
+        transition: all ease-in-out 0.3s; }
+      #actua .row-second #jai::after {
+        position: absolute;
+        background: #f38820;
+        content: "";
+        width: 20px;
+        height: 2px;
+        left: -25px;
+        top: 10px;
+        bottom: 0;
+        margin: 0 auto; }
+    #actua .row-second #jai:hover::after {
+      background: black !important;
+      transition: all ease-in-out 0.3s; }
+    #actua .row-second .networking {
+      margin-top: 27px;
+      border-top: solid 1px #858585;
+      padding-top: 17px;
+      display: -webkit- flex;
+      display: -moz- flex;
+      display: -ms- flex;
+      display: flex; }
+      #actua .row-second .networking .left {
+        -webkit-flex-basis: 70%;
+        -moz-flex-basis: 70%;
+        -ms-flex-basis: 70%;
+        flex-basis: 70%;
+        display: -webkit- flex;
+        display: -moz- flex;
+        display: -ms- flex;
+        display: flex; }
+        #actua .row-second .networking .left a {
+          display: -webkit- flex;
+          display: -moz- flex;
+          display: -ms- flex;
+          display: flex;
+          -webkit-flex-basis: 35%;
+          -moz-flex-basis: 35%;
+          -ms-flex-basis: 35%;
+          flex-basis: 35%; }
+          #actua .row-second .networking .left a span {
+            margin-top: 0;
+            font-size: 13px;
+            margin-left: 0;
+            width: 55%;
+            text-align: center;
+            position: relative; }
+            #actua .row-second .networking .left a span::after {
+              display: none; }
+        #actua .row-second .networking .left .asd {
+          text-align: start !important;
+          padding-left: 6px;
+          width: 12% !important; }
+        #actua .row-second .networking .left a:last-child span {
+          text-align: start !important;
+          padding-left: 8px;
+          transform: translate(2px, -2px); }
+        #actua .row-second .networking .left svg {
+          color: #a0a0a0; }
+        #actua .row-second .networking .left a:hover svg {
+          color: black !important; }
+        #actua .row-second .networking .left a:hover span {
+          color: black !important; }
+      #actua .row-second .networking .right {
+        -webkit-flex-basis: 30%;
+        -moz-flex-basis: 30%;
+        -ms-flex-basis: 30%;
+        flex-basis: 30%;
+        text-align: end; }
+        #actua .row-second .networking .right a {
+          margin: 0 5px; }
+          #actua .row-second .networking .right a svg {
+            color: #a0a0a0; }
+          #actua .row-second .networking .right a:hover svg {
+            color: black; }
+    #actua .row-second .right-side {
+      -webkit-flex-basis: 30%;
+      -moz-flex-basis: 30%;
+      -ms-flex-basis: 30%;
+      flex-basis: 30%; }
+      #actua .row-second .right-side .example {
+        display: -webkit- flex;
+        display: -moz- flex;
+        display: -ms- flex;
+        display: flex;
+        border: solid 1px #a0a0a0;
+        padding: 11px 6px; }
+        #actua .row-second .right-side .example input {
+          background: transparent;
+          width: 70%;
+          border: none; }
+        #actua .row-second .right-side .example button {
+          background: transparent;
+          border: none;
+          width: 24%; }
+          #actua .row-second .right-side .example button svg {
+            font-size: 18px;
+            font-weight: 300; }
+      #actua .row-second .right-side .recent {
+        display: -webkit- flex;
+        display: -moz- flex;
+        display: -ms- flex;
+        display: flex; }
+        #actua .row-second .right-side .recent .fiest {
+          width: 50%; }
+          #actua .row-second .right-side .recent .fiest h6 {
+            text-align: end;
+            font-size: 15px;
+            font-weight: bold;
+            color: #404040;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            word-spacing: 3px; }
+            #actua .row-second .right-side .recent .fiest h6:hover {
+              text-decoration: underline;
+              cursor: pointer; }
+            #actua .row-second .right-side .recent .fiest h6 img {
+              margin-top: -9px;
+              transform: translatey(-3px); }
+          #actua .row-second .right-side .recent .fiest h2 {
+            margin-top: 30px; }
+      #actua .row-second .right-side .post {
+        display: -webkit- flex;
+        display: -moz- flex;
+        display: -ms- flex;
+        display: flex; }
+        #actua .row-second .right-side .post figure {
+          width: 30%; }
+          #actua .row-second .right-side .post figure img {
+            width: 70px;
+            height: 70px; }
+        #actua .row-second .right-side .post samp {
+          font-size: 13px;
+          color: #858585;
+          font-weight: 500;
+          position: relative;
+          top: 14px;
+          word-spacing: -2px;
+          margin-top: -4px;
+          display: block; }
+          #actua .row-second .right-side .post samp::after {
+            position: absolute;
+            background: #f38820;
+            content: "";
+            width: 21px;
+            height: 2px;
+            top: -8px;
+            left: -1px; }
+        #actua .row-second .right-side .post a h5 {
+          margin-top: 25px;
+          font-weight: 600;
+          color: #000000; }
+
+#invert {
+  padding-top: 16px;
+  overflow: hidden; }
+  #invert .row {
+    width: 100%;
+    display: flex;
+    border-bottom: solid 1px;
+    flex-direction: row; }
+    #invert .row .text {
+      max-width: 50%;
+      width: 100%; }
+      #invert .row .text h1 {
+        font-weight: 700;
+        word-spacing: 4px; }
+    #invert .row .text-2 {
+      width: 50%;
+      max-width: 100%;
+      text-align: end; }
+      #invert .row .text-2 a {
+        font-weight: 700;
+        color: #404040;
+        transition: all ese out 0.3s;
+        font-size: 16px;
+        letter-spacing: 3px;
+        word-spacing: 2px; }
+        #invert .row .text-2 a:hover {
+          color: #f38820;
+          transition: all ese in 0.3s; }
+  #invert .como {
+    margin-top: 53px;
+    width: 100%;
+    display: flex;
+    flex-direction: row; }
+    #invert .como .left-ara {
+      max-width: 45%;
+      width: 100%; }
+      #invert .como .left-ara ol {
+        padding-left: 0; }
+        #invert .como .left-ara ol li {
+          list-style: decimal-leading-zero;
+          position: relative;
+          margin-left: 60px;
+          z-index: 999;
+          line-height: 51px;
+          width: 6%;
+          font-weight: 600;
+          font-size: 24px;
+          float: left; }
+        #invert .como .left-ara ol li::after {
+          position: absolute;
+          background: #f5f5f5;
+          content: "";
+          width: 55px;
+          height: 55px;
+          left: -49px;
+          border-radius: 100%;
+          z-index: -1;
+          top: -1px; }
+      #invert .como .left-ara h4 {
+        width: 90%;
+        position: relative;
+        top: -5px;
+        font-weight: 600;
+        margin-top: 2px;
+        font-size: 16px; }
+      #invert .como .left-ara span {
+        margin-left: 88px;
+        margin-top: -17px;
+        display: block;
+        color: #858585;
+        font-size: 12px;
+        font-weight: 300; }
+        #invert .como .left-ara span a {
+          color: black !important; }
+          #invert .como .left-ara span a:hover {
+            color: #f38820 !important; }
+      #invert .como .left-ara .ore {
+        width: 100%;
+        padding: 16px 0;
+        margin-bottom: 18px;
+        transition: all ese in 0.3s; }
+      #invert .como .left-ara .ore:hover {
+        background: #efefef;
+        transition: all ese out 0.3s; }
+      #invert .como .left-ara .ore:hover li::after {
+        background: #f38820 !important;
+        transition: all ese out 0.3s; }
+      #invert .como .left-ara .ore:hover li {
+        color: white;
+        transition: all ese out 0.3s; }
+    #invert .como .rigt-area {
+      max-width: 62%;
+      width: 100%; }
+      #invert .como .rigt-area #a {
+        margin: 0;
+        position: relative; }
+        #invert .como .rigt-area #a img {
+          width: 100%;
+          height: 575px;
+          position: relative;
+          margin-top: 16px; }
+        #invert .como .rigt-area #a .fe {
+          position: absolute;
+          background: white;
+          width: 65%;
+          z-index: 9;
+          left: 41px;
+          padding: 20px 14px;
+          bottom: 42px; }
+        #invert .como .rigt-area #a h3 {
+          font-weight: 600;
+          font-size: 19px;
+          margin-top: 5px;
+          line-height: 29px; }
+        #invert .como .rigt-area #a h6 {
+          font-size: 16px;
+          font-weight: 300;
+          color: #494949;
+          line-height: 26px;
+          margin-top: 0;
+          margin-bottom: 20px; }
+        #invert .como .rigt-area #a a {
+          font-size: 16px;
+          font-weight: 400;
+          position: relative;
+          margin-left: 30px;
+          color: #f38820; }
+          #invert .como .rigt-area #a a:hover {
+            color: #000000; }
+        #invert .como .rigt-area #a a::after {
+          position: absolute;
+          background: #f38820;
+          content: "";
+          width: 20px;
+          height: 2px;
+          left: -26px;
+          bottom: 10px; }
+        #invert .como .rigt-area #a a:hover::after {
+          background: #000000 !important; }
+      #invert .como .rigt-area #a::after {
+        position: absolute;
+        background: #000000;
+        content: "";
+        width: 100%;
+        height: 34%;
+        bottom: -9px; }
+
+#rec {
+  padding: 27px 0;
+  overflow: hidden; }
+  #rec .row {
+    text-align: center;
+    position: relative;
+    border-bottom: solid 1px;
+    border-top: solid 1px;
+    padding-bottom: 27px; }
+    #rec .row h1 {
+      font-weight: 300;
+      width: 53%;
+      position: relative;
+      line-height: 48px;
+      margin-left: auto;
+      margin-right: auto; }
+    #rec .row form {
+      position: absolute;
+      right: -25%;
+      overflow: hidden;
+      bottom: 60px;
+      border-top: none;
+      width: 100%; }
+      #rec .row form input {
+        border-left: none;
+        border-right: none;
+        border-bottom: solid 1px gray;
+        padding-bottom: 10px;
+        border-top: none;
+        font-size: 17px;
+        position: relative;
+        left: 31px;
+        font-weight: 600; }
+      #rec .row form #sss {
+        position: relative;
+        left: 53px;
+        background: #f38820;
+        color: white;
+        line-height: 29px;
+        padding: 7px 33px;
+        transition: all ese in 0.3s;
+        border-radius: 6px;
+        border: none;
+        font-size: 15px;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 2px; }
+      #rec .row form #sss:hover {
+        background: #000000 !important;
+        transition: all ese out 0.3s;
+        cursor: pointer; }
+  #rec .three-box {
+    padding-top: 21px;
+    width: 100%;
+    overflow: hidden; }
+    #rec .three-box .text-cox h1 {
+      margin-bottom: 13px; }
+    #rec .three-box .three-boxes {
+      width: 100%;
+      overflow: hidden;
+      display: flex; }
+      #rec .three-box .three-boxes .first-boxes, #rec .three-box .three-boxes .second-boxes {
+        max-width: 33.333%;
+        width: 100%; }
+      #rec .three-box .three-boxes .first-boxes iframe {
+        width: 100%;
+        height: 310px; }
+      #rec .three-box .three-boxes .second-boxes {
+        background: #e2e2e2;
+        height: 310px;
+        margin-left: 19px;
+        text-align: center;
+        line-height: 15; }
+        #rec .three-box .three-boxes .second-boxes h3 {
+          font-size: 18px;
+          color: #a9a9a9;
+          font-weight: 600;
+          text-transform: uppercase; }
+
+#mas {
+  padding-top: 60px; }
+  #mas .postss {
+    width: 100%;
+    display: flex;
+    margin-bottom: 17px; }
+    #mas .postss .a {
+      width: 50%; }
+      #mas .postss .a h1 {
+        margin-top: 0;
+        margin-bottom: 0; }
+    #mas .postss .b {
+      text-align: end;
+      width: 44% !important; }
+      #mas .postss .b a {
+        font-size: 15px;
+        font-weight: 600;
+        color: black;
+        text-transform: uppercase;
+        letter-spacing: 5px; }
+        #mas .postss .b a:hover {
+          color: #f38820; }
+  #mas .main-row {
+    width: 100%;
+    display: flex;
+    flex-direction: row; }
+    #mas .main-row .left-araea {
+      width: 100%;
+      max-width: 70%; }
+      #mas .main-row .left-araea .div-row {
+        width: 100%;
+        display: flex; }
+        #mas .main-row .left-araea .div-row .let {
+          width: 100%; }
+          #mas .main-row .left-araea .div-row .let .comment {
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            margin-bottom: 52px; }
+            #mas .main-row .left-araea .div-row .let .comment .feb {
+              width: 100%;
+              max-width: 19%; }
+              #mas .main-row .left-araea .div-row .let .comment .feb span {
+                color: #858585;
+                font-size: 13px;
+                font-weight: 400;
+                position: relative;
+                margin-top: 30px;
+                display: block; }
+              #mas .main-row .left-araea .div-row .let .comment .feb span::after {
+                position: absolute;
+                background: #f38820;
+                content: "";
+                width: 20px;
+                height: 3px;
+                left: 0;
+                top: -8px; }
+        #mas .main-row .left-araea .div-row .mar {
+          width: 100%;
+          max-width: 75%; }
+          #mas .main-row .left-araea .div-row .mar h4 {
+            font-weight: 600;
+            font-size: 15px; }
+          #mas .main-row .left-araea .div-row .mar p {
+            font-weight: 300;
+            color: #494949;
+            font-size: 14px;
+            margin-top: 38px;
+            margin-bottom: 30px;
+            line-height: 23px; }
+          #mas .main-row .left-araea .div-row .mar a {
+            margin-left: 16px;
+            position: relative;
+            color: #f38820;
+            position: relative;
+            text-transform: uppercase; }
+            #mas .main-row .left-araea .div-row .mar a:hover {
+              color: #000000; }
+          #mas .main-row .left-araea .div-row .mar a::after {
+            position: absolute;
+            background: #f38820;
+            content: "";
+            width: 20px;
+            height: 2px;
+            left: -26px;
+            top: 10px; }
+          #mas .main-row .left-araea .div-row .mar a:hover::after {
+            background: #000000; }
+      #mas .main-row .left-araea .ret {
+        width: 70%; }
+        #mas .main-row .left-araea .ret figure {
+          margin: 0; }
+        #mas .main-row .left-araea .ret img {
+          width: auto;
+          margin-bottom: 63px;
+          margin-top: 6px;
+          object-fit: contain;
+          height: 205px;
+          margin-left: -7px; }
+    #mas .main-row .right-area {
+      width: 30%;
+      margin-top: -23px;
+      overflow: hidden; }
+      #mas .main-row .right-area .catgr form {
+        margin-top: 38px; }
+        #mas .main-row .right-area .catgr form select {
+          width: 100%;
+          padding: 10px 8px;
+          border: solid 1px gainsboro;
+          color: grey;
+          font-size: 15px;
+          font-weight: 400; }
+      #mas .main-row .right-area .cot {
+        margin-top: 29px; }
+        #mas .main-row .right-area .cot h2 {
+          margin-bottom: -14px; }
+          #mas .main-row .right-area .cot h2 p {
+            margin-top: 26px;
+            font-size: 14px;
+            font-weight: 400; }
+      #mas .main-row .right-area .min--dror {
+        width: 100%;
+        display: flex;
+        flex-direction: row; }
+        #mas .main-row .right-area .min--dror .fiers, #mas .main-row .right-area .min--dror .second {
+          width: 25%; }
+        #mas .main-row .right-area .min--dror select {
+          padding: 4px 10px; }
+    #mas .main-row .map figure {
+      margin: 0; }
+      #mas .main-row .map figure img {
+        width: 100%;
+        margin-top: 26px; }
+    #mas .main-row .son {
+      margin-top: 13px; }
+      #mas .main-row .son h2 {
+        font-size: 25px; }
+      #mas .main-row .son h5 {
+        font-size: 15px;
+        margin-top: 15px; }
+  #mas .lage label {
+    display: inline-flex; }
+    #mas .lage label input {
+      width: 60px;
+      margin-top: -11px; }
+  #mas .lage p {
+    font-weight: 300;
+    margin-top: 0 !important;
+    margin-bottom: 11px !important;
+    color: #494949 !important;
+    font-size: 14px;
+    line-height: 24px; }
+  #mas #check {
+    padding: 17px 35px;
+    border: none;
+    font-weight: 600;
+    text-transform: uppercase;
+    background: #f38820;
+    color: #ffffff;
+    font-size: 14px;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-left: 32px;
+    margin-top: 11px; }
+    #mas #check:hover {
+      background: #000000; }
+
+footer {
+  background: #e2e2e2;
+  margin-top: 79px;
+  padding-top: 35px;
+  width: 100%;
+  overflow: hidden; }
+  footer .row {
+    display: flex;
+    width: 100%; }
+    footer .row .boder, footer .row .adrees, footer .row .menu {
+      width: 100%;
+      max-width: 33.333%;
+      overflow: hidden; }
+    footer .row .boder h4 {
+      font-size: 18px;
+      font-weight: 600;
+      color: #7f7f7f; }
+    footer .row .boder h3 {
+      font-size: 20px;
+      font-weight: 400;
+      color: #7f7f7f; }
+    footer .row .boder ul {
+      padding-left: 0; }
+      footer .row .boder ul li {
+        display: inline; }
+        footer .row .boder ul li a {
+          border: solid 1px #7f7f7f;
+          color: #7f7f7f;
+          padding: 7px 24px;
+          margin: 5px 2px;
+          display: inline-block; }
+          footer .row .boder ul li a:hover {
+            color: #f38820;
+            border: solid 1px #f38820; }
+    footer .row .adrees {
+      margin-left: 100px; }
+      footer .row .adrees h4 {
+        font-size: 16px;
+        font-weight: 600;
+        color: #7f7f7f;
+        margin-bottom: -14px; }
+      footer .row .adrees p {
+        width: 58%;
+        margin-bottom: 41px; }
+        footer .row .adrees p a {
+          font-size: 17px;
+          font-weight: 500;
+          color: #000000;
+          line-height: 17px; }
+    footer .row .menu {
+      display: flex; }
+      footer .row .menu ul {
+        padding-right: 0; }
+        footer .row .menu ul li a {
+          color: #7f7f7f;
+          font-weight: 600;
+          font-size: 14px;
+          line-height: 48px; }
+          footer .row .menu ul li a:hover {
+            color: #000000; }
+      footer .row .menu .last {
+        margin-left: 39px; }
+  footer .colpy0right {
+    width: 100%;
+    text-align: center;
+    padding: 13px 1px; }
+    footer .colpy0right p {
+      color: #7e7e7e;
+      font-size: 14px;
+      font-weight: 300; }

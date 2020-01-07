@@ -1,0 +1,31 @@
+.soicial.media {
+	margin-top: 13px;
+    text-align: center;
+    a {
+        margin: 0 2px;font-size: 20px;
+        svg{
+            color:$black-color;
+            &:hover{color: $primary-color; transition: all ease-in-out0.3s;}
+        }
+
+
+
+    }
+
+
+
+}
+.added {
+    text-align: center;
+    h3 {
+        background: #e2e2e2;
+        width: 65%;
+        margin: 0 auto;
+        padding: 33px 0;
+        margin-top: 12px;
+        color: #848484;
+        svg {
+            padding-left: 10px;
+        }
+    }
+}

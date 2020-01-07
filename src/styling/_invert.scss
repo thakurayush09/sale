@@ -1,0 +1,181 @@
+#invert {
+	padding-top: 16px;
+    overflow: hidden;
+    
+    .row {
+        width: 100%;
+        display: flex;border-bottom: solid 1px;
+        flex-direction: row;
+        .text {
+            max-width: 50%;
+            width: 100%;
+            h1 {
+                font-weight: 700;
+                word-spacing: 4px;
+            }
+        }
+
+        .text-2 {
+            width: 50%;
+            max-width: 100%;
+            text-align: end;
+            a {
+                font-weight: 700;
+                color: #404040;transition:$transition-out; font-size: 16px;
+                letter-spacing: 3px;
+                word-spacing: 2px;
+              &:hover{color: $primary-color; transition:$transition-in;}  
+            }
+        }
+
+    }
+    .como {
+        margin-top: 53px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        .left-ara {
+            max-width: 45%;
+            width: 100%;
+            ol {
+                padding-left: 0;
+                li {
+                    list-style: decimal-leading-zero;
+                    position: relative;
+                    margin-left: 60px;
+                    z-index: 999;
+                    line-height: 51px;width: 6%;
+                    font-weight: 600;
+                    font-size: 24px;float: left;
+                }
+                li::after {
+                    position: absolute;
+                    background:#f5f5f5;
+                    content: "";
+                    width: 55px;
+                    height: 55px;
+                    left: -49px;
+                    border-radius: 100%;
+                    z-index: -1;
+                    top: -1px;
+                }
+
+
+
+            }
+            h4 {
+                width: 90%;
+    position: relative;
+    top: -5px;font-weight: 600;margin-top: 2px;
+    font-size: 16px;
+            }
+            span {
+                margin-left: 88px;
+                margin-top: -17px;
+                display: block;
+                color: #858585;
+                font-size: 12px;
+                font-weight: 300;
+
+                a {
+                    color: black !important;
+                    &:hover{color:$primary-color !important; }
+                }
+            }
+
+             .ore {
+                width: 100%;
+                padding: 16px 0;
+                margin-bottom: 18px;
+                transition: $transition-in;
+            }
+
+            .ore:hover {
+                background: #efefef; transition: $transition-out;
+            }
+            .ore:hover li::after {
+                background: $primary-color !important;transition: $transition-out;
+            }
+            .ore:hover li {
+                color: white;transition: $transition-out;
+            }
+        }
+
+
+
+
+
+
+        .rigt-area {
+            max-width: 62%;
+            width: 100%;
+            #a {
+                margin: 0;
+                position: relative;
+                img {width: 100%;
+                    height: 575px;
+                    position: relative;
+                    margin-top: 16px;
+                }
+            
+                .fe {
+                    position: absolute;
+                    background: white;
+                    width: 65%;z-index: 9;
+                    left: 41px;
+                    padding: 20px 14px;
+                    bottom: 42px;
+                }   
+                h3 {
+                    font-weight: 600;
+                    font-size: 19px;margin-top: 5px;
+                    line-height: 29px;
+                }
+                h6 {
+                    font-size: 16px;
+                    font-weight: 300;
+                    color: #494949;
+                    line-height: 26px;
+                    margin-top: 0;
+                    margin-bottom: 20px;
+                }
+                a {
+                    font-size: 16px;
+                    font-weight: 400;
+                    position: relative;
+                    margin-left: 30px;color: $primary-color;
+                    &:hover{color: $black-color;}
+                } 
+                a::after {
+                    position: absolute;
+                    background: $primary-color;
+                    content: "";
+                    width: 20px;
+                    height: 2px;
+                    left: -26px;
+                    bottom: 10px;
+                }
+                a:hover::after{background: $black-color !important;}
+            }
+
+
+
+            #a::after {
+                position: absolute;
+                background:$black-color;
+                content: "";
+                width: 100%;
+                height: 34%;
+                bottom: -9px
+            }
+
+
+
+
+        }
+
+
+
+    }
+
+}
