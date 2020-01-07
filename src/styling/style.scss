@@ -1,6 +1,4 @@
 @import "node_modules/@fortawesome/fontawesome-free/css/all.css";
-@import "node_modules/slick-carousel/slick/slick-theme.scss";
-@import "node_modules/slick-carousel/slick/slick.scss";
 
 
 
@@ -14,6 +12,7 @@ $grey-color:#e2e2e2;
 $extra-gray-color:#848484;
 $pargraph-color:#494949;
 
+
 /************transtion***************/
 $transition-in:all ese in 0.3s;
 $transition-out:all ese out 0.3s;
@@ -23,10 +22,10 @@ $margain-auto:0 auto;
 
 
 /*********heading**********************/
-h1{font-size: 30px;}
-h2{font-size: 22px;}
-h3{font-size: 18px;}
-h4{font-size: 14px;}
+h1{font-size: 30px;@media(max-width:991){font-size: 25px;} @media(max-width:480){font-size: 23px;}}
+h2{font-size: 22px; @media(max-width:991){font-size: 18px;} @media(max-width:480){font-size: 20px;}}
+h3{font-size: 18px;@media(max-width:991){font-size: 16px;} @media(max-width:480){font-size: 16px;}}
+h4{font-size: 14px;@media(max-width:991){font-size: 13px;} @media(max-width:480){font-size: 13px;}}
 li{list-style: none;}
 a{text-decoration: none;
 &:hover{text-decoration: none;}
@@ -49,7 +48,7 @@ figure, figcaption {margin: 0;}
     -webkit-flex-wrap: $flex;
     -moz-flex-wrap: $flex;
     -ms-flex-wrap: $flex;
-    flex-direction: $flex;
+    flex-wrap: $flex;
     }
     @mixin align-items($flex) {
     -webkit-align-items: $flex;
@@ -59,10 +58,16 @@ figure, figcaption {margin: 0;}
     }
     @mixin flex-basis($flex) {
     -webkit-flex-basis: $flex;
-    -moz-flex-basis-: $flex;
-    -ms-flex-basis-: $flex;
+    -moz-flex-basis: $flex;
+    -ms-flex-basis: $flex;
     flex-basis: $flex;
     }
+    @mixin align-self ($flex) {
+        -webkit-align-self: $flex;
+        -moz-align-self: $flex;
+        -ms-align-self: $flex;
+        align-self: $flex;
+        }
     @mixin justify-content($flex) {
     -webkit-justify-content: $flex;
     -moz-justify-content-: $flex;
@@ -72,15 +77,134 @@ figure, figcaption {margin: 0;}
     @mixin after($after) {
         position: absolute;
         content: "";
-        
-
     }
-
+   
 
 
 /************body****************/
 body{font-family: 'Poppins', sans-serif; margin:0 auto;}
-.container {	max-width: 1270px;	margin-left: auto;	margin-right: auto;	box-sizing: border-box;	width: 100%;}
+.container {	max-width: 1270px;	margin-left: auto;	margin-right: auto;	box-sizing: border-box;	width: 100%; padding-left: 15px; padding-right: 15px;}
+
+@import "header";
+/*
+@import "baner";**/
+#baner {
+	width: 100%;
+    display: block;
+    .row{
+        @include display(flex);
+        #second{@include flex-basis(33.333%);transition: all ease-in 0.3s;
+           &:hover {
+                flex-basis: 65% !important;
+                transition: all ease-out 0.3s;
+            }
+            figure{position: relative;
+                img {
+                    width: 100%;
+                    height: 600px;
+                    object-fit: cover;
+                }
+                 figcaption {
+                    position: absolute;
+                    bottom: 30px;
+                    background: white;
+                    width: 50%;
+                    left: 30px;
+                    padding-left: 30px;
+                    padding-right: 19px;
+                    padding-top: 20px;
+                    padding-bottom: 25px;
+                }
+                .fe {
+                    left: auto !important;
+                    right: 30px !important;
+                }
+                h4 {
+                    text-transform: uppercase;
+                    font-size: 14px;
+                    font-weight: 600;
+                }
+                a h1 {
+                    font-size: 20px;
+                    font-weight: 600;color: $black-color;
+                    line-height: 30px;
+                    position: relative;
+                    margin-top: -7px;
+                    margin-bottom: 38px;
+                    &::after {
+                        position: absolute;
+                        background: $primary-color;
+                        content: "";
+                        width: 55px;
+                        height: 5px;
+                        bottom: -14px;
+                        left: 0;
+                    }
+                }
+                #baner-h {
+                    font-size: 14px !important;
+                    font-weight: 500 !important;
+                    a {
+                        word-spacing: 4px;
+                        padding-left: 4px;color: $primary-color;
+                        &:hover {
+                            text-decoration: underline;
+                            text-decoration-thickness: 2px;
+                            transition: all e 0.5s;
+                        }
+                    }
+                }
+            }
+        
+        
+        
+        
+        }
+        figure::before {
+            position: absolute;
+            background: #f38820;
+            width: 69px;
+            height: 69px;
+            top: 32px;
+            left: 28px;
+            z-index: 99;
+            border-radius: 100%;
+            line-height: 65px;
+            text-align: center;
+            color: white;
+            font-weight: 600;
+            font-size: 36px;
+        }
+        #a::before{content: "01";}
+        #b::before{content: "02";}
+        #c::before{content: "03";}
+    }
+    #second:hover figcaption {
+        width: 70% !important;
+    }
+     #second:hover figcaption h1 {
+        font-size: 30px  !important;
+        line-height: 36px  !important;
+        transition: all ease-in-out 0.4s;
+    }
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
