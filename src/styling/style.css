@@ -1071,7 +1071,7 @@ header {
       margin-right: auto; }
     #rec .row form {
       position: absolute;
-      right: -25%;
+      right: -26%;
       overflow: hidden;
       bottom: 60px;
       border-top: none;
@@ -1193,10 +1193,10 @@ header {
       width: 44% !important; }
       #mas .postss .b a {
         font-size: 15px;
-        font-weight: 600;
+        font-weight: 800;
         color: black;
         text-transform: uppercase;
-        letter-spacing: 5px; }
+        letter-spacing: 3px; }
         #mas .postss .b a:hover {
           color: #f38820; }
   #mas .main-row {
