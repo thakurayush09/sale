@@ -58,6 +58,8 @@
                     border-radius: 100%;
                     z-index: -1;
                     top: -1px;
+                    left: 0;
+                
                 }
 
 
@@ -154,6 +156,7 @@
                     height: 2px;
                     left: -26px;
                     bottom: 10px;
+                    right: 0;
                 }
                 a:hover::after{background: $black-color !important;}
             }
