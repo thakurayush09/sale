@@ -1519,6 +1519,10 @@ footer {
   bottom: -9px;
   right: 0; }
 
+#mas .lage label input {
+  width: 60px;
+  margin-top: 8px; }
+
 @media only screen and (max-width: 1382px) {
   .container {
     max-width: 1160px !important; } }
