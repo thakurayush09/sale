@@ -65,6 +65,7 @@ body {
   padding-left: 15px;
   padding-right: 15px; }
 
+/**header**/
 header {
   width: 100%;
   padding: 20px 0;
@@ -344,6 +345,7 @@ header {
   header .row .last {
     right: 69px; } }
 
+/**baner**/
 #baner {
   width: 100%;
   display: block; }
@@ -472,6 +474,7 @@ header {
     height: 470px;
     object-fit: cover; } }
 
+/**extra**/
 .soicial.media {
   margin-top: 13px;
   text-align: center; }
@@ -500,6 +503,7 @@ header {
   .added h3 {
     width: 85%; } }
 
+/**acuta**/
 #actua {
   width: 100%;
   margin-top: 46px;
@@ -842,6 +846,7 @@ header {
     -ms-flex-direction: column;
     flex-direction: column; } }
 
+/**invert**/
 #invert {
   padding-top: 16px;
   overflow: hidden; }
@@ -1055,6 +1060,7 @@ header {
     height: auto;
     object-fit: cover; } }
 
+/**rec**/
 #rec {
   padding: 27px 0;
   overflow: hidden; }
@@ -1179,6 +1185,7 @@ header {
     width: 100%;
     line-height: 23px; } }
 
+/**mas**/
 #mas {
   padding-top: 60px; }
   #mas .postss {
@@ -1439,6 +1446,7 @@ header {
   #mas .main-row .left-araea .ret img {
     margin-bottom: 11px; } }
 
+/**footer**/
 footer {
   background: #e2e2e2;
   margin-top: 79px;
