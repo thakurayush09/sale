@@ -272,3 +272,123 @@
                 }
 
         }
+
+
+
+        
+@media only screen and (max-width:991px){
+
+    #mas {
+      padding-top: 15px;
+    }
+  
+    #mas .main-row{@include direction(column);}
+    #mas .main-row .left-araea {
+      width: 100%;
+      max-width: 100%;
+    }
+    #mas h1 {
+      font-size: 20px;
+    }
+    #mas .main-row .left-araea .ret img {
+      width: 100%;
+    }
+    #mas .main-row .right-area {
+      width: 100%;margin-top: 0;
+    }
+    #mas .main-row .right-area .cot h2 {
+      margin-bottom: 0;
+    }
+    #mas .main-row .right-area .cot {
+      margin-top: 0;
+    }
+    #mas .main-row .right-area .min--dror{@include direction(column);}
+    #mas .main-row .right-area .min--dror .fiers, #mas .main-row .right-area .min--dror .second {
+      width: 100%;margin-bottom: 12px;
+    }
+    #mas .main-row .right-area .min--dror select {
+      padding: 10px 14px;
+      width: 100%;
+    }
+    #mas .main-row .map figure img {
+      width: 100%;margin-top: 5px;
+      height: auto;
+    }
+    #mas .main-row .son h2 {
+      font-size: 21px;
+      margin-top: 0;
+    }
+    #mas .main-row .son h5 {
+      font-size: 15px;
+      margin-top: 2px;
+      margin-bottom: 14px;
+    }
+    #mas .lage p {
+      line-height: 13px;
+    }
+    #mas .lage label input {
+      margin-top: -3px;
+    }
+    #mas #check {
+      padding: 11px 19px;
+      margin-top: 11px;
+    }
+    #mas .main-row .left-araea {
+      margin: 0;
+    }
+  }
+  
+  
+  @media only screen and (max-width:575px){
+    #mas .main-row .left-araea .div-row .mar p {
+      font-size: 13px;
+      margin-top: 0;
+      margin-bottom: 5px;
+      line-height: 23px;
+    }
+    #mas .main-row .left-araea .div-row .mar h4 {
+      font-size: 13px;
+      line-height: 18px;
+      margin-bottom: 5px;
+    }
+    #mas .main-row .left-araea .div-row .let .comment {
+      margin-bottom: 16px;
+    }
+   
+    #mas .main-row .right-area .catgr form {
+      margin-top: 0;
+    }
+  
+  }
+  
+  @media only screen and (max-width:480px){
+    #mas .postss .b a {
+      font-size: 13px;
+      letter-spacing: 0;
+    }
+    #mas .b svg {
+      padding-left: 6px;
+    }
+    #mas h1 {
+      font-size: 17px;
+    }
+    #mas .postss {
+      margin-bottom: 0;
+    }
+    #mas .main-row .left-araea .div-row{
+  
+      @include direction(column);
+    }
+    #mas .main-row .left-araea .div-row .mar {
+      width: 100%;
+      max-width: 100%;
+      margin-bottom: -17px;
+    }
+    #mas .main-row .left-araea .ret {
+      width: 100%;
+    }
+    #mas .main-row .left-araea .ret img {
+      margin-bottom: 11px;
+    }
+  
+  }

@@ -102,3 +102,36 @@
 }
 
 
+@media only screen and (max-width: 991px){
+    #baner .row{@include direction(column);}
+    #baner .row #second{@include flex-basis(100% !important);}
+    #baner .row #second:hover { flex-basis: auto !important; transition: all ease-out 0.3s;}
+    #baner #second:hover figcaption {
+      width: 70% !important;
+    }
+    #baner #second:hover figcaption h1 {
+      font-size: 20px !important;
+      line-height: 25px !important;
+      transition: all ease-in-out 0.4s;
+    }
+    #baner .row #second figure a h1 {
+        line-height: 25px;
+    }
+    #baner .row #second figure .fe {
+      left: 30px !important;
+      right: auto !important;
+    }
+    #baner .row #second figure figcaption {
+      width: 70%;
+    }
+  }
+  
+  
+  @media only screen and (max-width: 480px){
+  #baner .row #second figure img {
+      width: 100%;
+      height: 470px;
+      object-fit: cover;
+  }
+  }
+  

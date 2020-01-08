@@ -224,3 +224,131 @@
 
     }
 }
+
+
+
+
+@media only screen and (max-width:991px){
+    #actua .row-second .right-side .post figure {
+        width: 44%;
+    }
+    
+    }
+    
+    @media only screen and (max-width:991px){
+    
+      #actua .row .first, #actua .row .second {
+        text-align: center;
+      }
+      #actua .row .first h1 {
+        margin-bottom: 0;
+      }
+      .second h4 {
+        margin-top: 36px;
+      }
+      #actua {
+        margin-top: 0;
+      }
+      #actua .row-second {
+        margin-top: 25px;    @include direction(column);
+      }
+      #actua .row-second .first-side, #actua .row-second .right-side{ @include flex-basis(100%);margin-right: 0;}
+      #actua .row-second .networking {
+        margin-top: 16px;
+        padding-top: 19px;
+      }
+      #actua .row-second .first-side, #actua .row-second .right-side {
+        margin-top: 33px;
+      }
+      #actua .row-second .first-side figure img {
+        height: auto;
+      }
+      #actua .row-second .right-side .post figure {
+        width: 10%;
+      }
+    
+    
+    
+    }
+    
+    
+    @media only screen and (max-width:767px){
+    
+      #actua .row-second .right-side .post{
+    
+        @include direction(column); text-align: center;
+      }
+    
+      #actua .row-second .right-side .post figure {
+        width: 100%;
+      }
+      #actua .row-second .right-side .post samp::after {
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+      }
+    
+    }
+    @media only screen and (max-width:767px){
+      #actua .row-second .networking {
+        margin-top: 13px;
+        padding-top: 14px;@include direction(column);
+      }
+      #actua .row-second .networking .left{@include flex-basis(100%);}
+      #actua .row-second .networking .left a span {
+        font-size: 12px;
+        width: 79%;
+      }
+      #actua .row-second .networking .right {
+        flex-basis: 100%;
+        text-align: start !important;
+        margin-top: 24px;
+      }
+      #actua .row-second .right-side .recent .fiest h6 {
+        letter-spacing: 0;
+        word-spacing: 0;
+        margin-top: 28px;
+      }
+    
+    
+    }
+    
+    
+    
+    @media only screen and (max-width:480px){
+      #actua h1 {
+        font-size: 21px;
+        margin-top: 35px;
+        text-align: start;
+      }
+      #actua .row .first, #actua .row .second {
+        text-align: end;
+      }
+      #actua .row .second h4 a {
+        font-size: 12px;
+        letter-spacing: 0;
+        word-spacing: 0;
+      }
+      h2 {
+        font-size: 18px;
+        line-height: 19px;
+      }
+      #actua .row-second .first-side {
+        margin-top: 0;
+      }
+    
+    
+    @media only screen and (max-width:350px){
+      #actua .row-second .networking .left a span {
+        font-size: 11px;
+        width: 87%;
+      }
+      #actua .row-second .networking .left svg {
+        text-align: center;
+        width: 57%;
+      }
+      #actua .row-second .networking .left a{@include direction(column);}
+    }
+    }
+    
+    

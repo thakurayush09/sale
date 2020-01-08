@@ -108,3 +108,65 @@ input{border-left: none;
 }
 
 }
+
+
+
+@media only screen and (max-width:991px){
+
+    #rec .row h1 {
+      width: 100%;
+    }
+    #rec .row form {
+      position: unset;
+      right: auto;
+      overflow: hidden;
+      bottom: auto;
+      border-top: none;
+      width: 100%;
+    }
+  }
+  @media only screen and (max-width:767px){
+  #rec h1 {
+	font-size: 17px;
+}
+#rec .three-box .three-boxes{
+@include direction(column);
+
+}
+#rec .three-box .three-boxes .first-boxes, #rec .three-box .three-boxes .second-boxes {
+	max-width: 100%;
+	width: 100%;
+	margin-bottom: 10px;
+}
+#rec .three-box .three-boxes .second-boxes {
+	margin-left: 0;
+}
+
+  }
+  
+  @media only screen and (max-width:480px){
+    #rec .row form {
+    @include direction(column); @include display(flex);
+    }
+    #rec .row form #sss {
+      position: unset;;
+      margin-top: 24px;
+    }
+    #rec .row form input{position: unset;}
+    #rec .row h1 {
+      width: 100%;
+      line-height: 23px;
+    }
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  

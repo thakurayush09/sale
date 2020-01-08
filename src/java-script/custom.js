@@ -3,8 +3,12 @@ $(document).ready(function(){
     $(".toggle-btn").click(function(){
         $(".as").toggle();
     });
-  });
-  
+ 
+    $("#toggle").click(function(){
+        $("#menu").toggle();
+        return false;
+    });
+ 
   
   
   
@@ -47,7 +51,4 @@ $(document).ready(function(){
       }
   }
   
-  theToggle.onclick = function() {
-     toggleClass(this, 'on');
-     return false;
-  }
+});

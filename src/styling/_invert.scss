@@ -179,3 +179,94 @@
     }
 
 }
+
+
+
+
+@media only screen and (max-width:991px){
+
+    #invert .como .left-ara h4 {
+      font-size: 15px;
+    }
+  
+  }
+  
+  @media only screen and (max-width:767px){
+    #invert .como{@include direction(column);}
+    #invert .como .left-ara {
+      max-width: 100%;
+      width: 100%;
+    }
+    #invert .como .rigt-area {
+      max-width: 100%;
+      width: 100%;
+    }
+  
+    h1 {
+      font-size: 21px;
+    }
+    #invert .como {
+      margin-top: 3px;
+    }
+    #invert .como .rigt-area #a img {
+      margin-top: 0;
+    }
+    #invert .como .rigt-area #a img {
+      height: 423px;
+      object-fit: cover;
+    }
+  
+  }
+  
+  
+  @media only screen and (max-width:480px){
+    #invert .row .text {
+      max-width: 62%;
+      width: 100%;
+    }
+    h1 {
+      font-size: 16px;
+    }
+    #invert .row .text-2 a {
+      font-size: 14px;
+      letter-spacing: 0;
+      word-spacing: 0;
+    }
+    #invert .como .left-ara .ore {
+      padding: 13px 0;
+      margin-bottom: 0;
+    }
+    #invert .como .left-ara ol li {
+      margin-left: 43px;
+      z-index: 999;
+    }
+    #invert .como .left-ara h4 {
+      font-size: 13px;
+    }
+    #invert .como .left-ara span {
+      margin-left: 58px;
+    }
+    #invert .como .rigt-area #a .fe {
+      position: unset;
+      background: white;
+      width: 100%;
+      z-index: 9;
+      left: auto;
+      padding: 0;
+      bottom: auto;
+    }
+    #invert .como .rigt-area #a::after{display: none;}
+    #invert .como .rigt-area #a h3 {
+      font-size: 17px;
+      line-height: 23px;
+      margin-bottom: 10px;
+    }
+    #invert .como .rigt-area #a img {
+        height: auto;
+        object-fit: cover;
+    }
+  
+  
+  
+  }
+  
